@@ -2,12 +2,23 @@
 Generator for game: Assasin. It randomly assigns each player a target, weapon and restriction
 
 # RULES:
-1. Keep your target secret, even if you're killed.
-2. Tap the target with your weapon - NO INJURIES.
-3. When you're killed, give your target to your killer.
 
-Make sure to respect the restrictions placed on your target - e.g if restriction is "outside bathroom" your target must be standing outside the bathroom when you assassinate them.
-Person with most targets killed at the end wins.
+1. You can kill your target only.
+
+2. For a kill to register, you must hit your target with a valid weapon in the target area for that weapon and provide proof that this person is your target.
+
+3.  The game continues until one assassin remains.
+
+4.  When you are killed, you are out of the game.
+
+5.  The game does not stop until it is over.
+
+6.  Do not tell anyone who your target is.
+
+7.  When you kill a target, you get their target.
+
+8.  You may use non players for information only. You may not have non players spy for you and you may not tell them about the game. You may only ask for information or have them interact with the target for means of distraction as long as they do not know that you are playing the game.
+
 
 
 
