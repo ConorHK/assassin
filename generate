@@ -1,3 +1,5 @@
 #!/bin/bash
 
+echo "Generating target list..."
 python3 assassin.py
+echo "Complete!"
