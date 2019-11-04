@@ -1,12 +1,12 @@
 #!/bin/bash
 cat README.md
+echo "Press any key to continue"
+
 while [ true ] ; do
-    read -t 3 -n 1
+    read -n 1
     if [ $? = 0 ] ; then
         cat targets.txt
         exit ;
-    else
-    echo "Press any key to continue"
 fi
 
 done
