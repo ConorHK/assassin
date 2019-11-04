@@ -43,7 +43,7 @@ def main():
     lines = []
 
     for i in range(total):
-        lines.append("Player: " + players[i] + "  >>> Target: " + targets[(i+1) % total] +  "  >>> Weapon: " +  weapons[i]  + "  >>> Restriction: " + restrictions[i] + "\n\n")
+        lines.append(players[i] + "  >>> Target: " + targets[(i+1) % total] +  "  >>> Weapon: " +  weapons[i]  + "  >>> Restriction: " + restrictions[i] + "\n\n")
 
     with open("targets.txt", "w") as file:
         file.write("\n---------------------------------------------TARGET LIST-------------------------------------\n\n")
