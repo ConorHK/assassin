@@ -8,3 +8,6 @@ Generator for game: Assasin. It randomly assigns each player a target, weapon an
 
 Make sure to respect the restrictions placed on your target - e.g if restriction is "outside bathroom" your target must be standing outside the bathroom when you assassinate them.
 Person with most targets killed at the end wins.
+
+
+

@@ -46,10 +46,10 @@ def main():
         lines.append(players[i] + "  >>> Target: " + targets[(i+1) % total] +  "  >>> Weapon: " +  weapons[i]  + "  >>> Restriction: " + restrictions[i] + "\n\n")
 
     with open("targets.txt", "w") as file:
-        file.write("---------------TARGET LIST----------\n")
+        file.write("\n---------------------------------------------TARGET LIST-------------------------------------\n\n")
         line = sorted(lines, key=str.lower )
         for line in lines:
             file.write(line)
-        file.write("-------------------------------------")
+        file.write("----------------------------------------------------------------------------------------------")
 
 main()
