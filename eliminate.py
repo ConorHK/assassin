@@ -30,6 +30,7 @@ def loadRestrictions():
 
     return restrictions
 
+# Functions that update the lists for current play order.
 def loadCurrentPlayers(count, list):
     players = []
     with open("TempGameFiles/playershuffle.txt") as file:
@@ -58,9 +59,10 @@ def loadCurrentTargets(count, list):
         targets = file.read().splitlines()
 
     return targets
+
+
 # Linked list implementation:
 # Followed guide written by Usman Malik @stackabuse.com
-
 class Node:
     def __init__(self, data):
         self.item = data
@@ -72,7 +74,7 @@ class LinkedList:
     def __init__(self):
         self.start_node = None
 
-    #Travels through list and prints elements
+    #Travels through list and updates current play files accordingly
     def traverse_list(self, path):
         if self.start_node is None:
             print("List has no element")
@@ -88,11 +90,6 @@ class LinkedList:
                 n = n.ref
 
     #Insert functions
-    def insert_at_start(self, data):
-        new_node = Node(data)
-        new_node.ref = self.start_node
-        self.start_node = new_node
-
     def insert_at_end(self, data):
         new_node = Node(data)
         if self.start_node is None:
@@ -102,60 +99,6 @@ class LinkedList:
         while n.ref is not None:
             n = n.ref
         n.ref = new_node;
-
-    def insert_after_item(self, x, data):
-
-        n = self.start_node
-        while n is not None:
-            if n.item == x:
-                break
-            n = n.ref
-        if n is None:
-            print("ERROR: Item not in list.")
-        else:
-            new_node = Node(data)
-            new_node.ref = n.ref
-            n.ref = new_node
-
-    def insert_before_item(self, x, data):
-        if self.start_node is None:
-            print("List has no elements.")
-            return
-
-        if x == self.start_node.item:
-            new_node = Node(data)
-            new_node.ref = self.start_node
-            self.start_node = new_node
-            return
-
-        n = self.start_node
-        while n.ref is not None:
-            if n.ref.item == x:
-                break
-            n = n.ref
-        if n.ref is None:
-            print("item not in the list")
-        else:
-            new_node = Node(data)
-            new_node.ref = n.ref
-            n.ref = new_node
-
-    def insert_at_index(self, index, data):
-        if index == 1:
-            new_node = Node(data)
-            new_node.ref = self.start_node
-            self.start_node = new_node
-        i = 1
-        n = self.start_node
-        while i < index-1 and n is not None:
-            n = n.ref
-            i = i+1
-        if n is None:
-            print("Index out of bounds.")
-        else:
-            new_node = Node(data)
-            new_node.ref = n.ref
-            n.ref = new_node
     
     # Function that returns how many elements are in the list
     def get_count(self):
@@ -180,7 +123,8 @@ class LinkedList:
             n = n.ref
         print("Item not found")
         return False
-    # Function that returns item at index
+   
+   # Function that returns item at index
     def return_item(self, index):
         if self.start_node is None:
             print("List has no elements")
@@ -197,32 +141,8 @@ class LinkedList:
             print("Index is out of bounds.")
         else:
             return n.ref.item
-    # Function for user input creation of lists
-    def make_new_list(self):
-        nums = int(input("How many nodes do you want to create: "))
-        if nums == 0:
-            return
-        for i in range(nums):
-            value = int(input("Enter the value for the node: "))
-            self.insert_at_end(value)
-    
-    # Delete element functions
-    def delete_at_start(self):
-        if self.start_node is None:
-            print("This list has no elements to delete.")
-            return
-        self.start_node = self.start_node.ref
 
-    def delete_at_end(self):
-        if self.start_node is None:
-            print("The list has no elements to delete.")
-            return
-
-        n = self.start_node
-        while n.ref.ref is not None:
-            n = n.ref
-        n.ref = None
-
+    # Delete functions
     def delete_element_by_value(self, x):
         if self.start_node is None:
             print("The list has no element to delete.")
@@ -267,6 +187,7 @@ class LinkedList:
             n.ref = n.ref.ref
 
 def main():
+    # Initializing lists:
     players = loadPlayers()
     weapons = loadWeapons()
     restrictions = loadRestrictions()
@@ -287,27 +208,32 @@ def main():
     for item in targets:
         target_list.insert_at_end(item)
 
+    #Bool for seeing if input is valid
     flag = player_list.search_item(str(sys.argv[1]))
     if(flag):
-        index = player_list.delete_element_by_value(str(sys.argv[1]))
-        target_list.delete_element_by_value(str(sys.argv[1]))
+        # if so, delete the eliminated player and the corresponding weapon and restriction
+        player_list.delete_element_by_value(str(sys.argv[1]))
+        index = target_list.delete_element_by_value(str(sys.argv[1]))
         weapon_list.delete_element_by_index(index)
         restriction_list.delete_element_by_index(index)
+
+        # run traverse list to update current play files to ensure persistance
         player_list.traverse_list("playershuffle.txt")
         target_list.traverse_list("targetlist.txt")
         weapon_list.traverse_list("weaponshuffle.txt")
         restriction_list.traverse_list("restrictionshuffle.txt")
 
+        # Re-initialize lists
         players = loadCurrentPlayers(player_list.get_count(), player_list)
         targets = loadCurrentTargets(target_list.get_count(), target_list)
         weapons = loadCurrentWeapons(weapon_list.get_count(), weapon_list)
         restrictions = loadCurrentRestrictions(restriction_list.get_count(), restriction_list)
 
+        # Print to file
         for i in range(len(players)):
             lines.append(players[i] + "  >>> Target: " + targets[i] +  "  >>> Weapon: " + weapons[i]  + "  >>> Restriction: " + restrictions[i] + "\n\n") 
         
         with open("current.txt", "w") as file:
-            #line = sorted(lines, key=str.lower)
             for line in lines:
                 file.write(line)
 main()

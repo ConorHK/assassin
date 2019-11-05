@@ -1,48 +1,48 @@
-MATTHEW  >>> Target: CONOR  >>> Weapon: IPHONE CHARGER  >>> Restriction: IN A KAYAK
+STEPHEN  >>> Target: OISIN  >>> Weapon: BOWL  >>> Restriction: ON SOMEONE ELSE'S LAP
 
-CONOR  >>> Target: DAVID  >>> Weapon: LAMP  >>> Restriction: WHILE TALKING TO CIAN
+OISIN  >>> Target: SHANLEY  >>> Weapon: UCDCC MEMBERSHIP CARD  >>> Restriction: ON THE BEACH
 
-DAVID  >>> Target: REIDIN  >>> Weapon: SHAMPOO  >>> Restriction: IN THE RAIN
+SHANLEY  >>> Target: AMELIA  >>> Weapon: SHOE  >>> Restriction: WHILE THEYRE DANCING
 
-REIDIN  >>> Target: EMMA  >>> Weapon: EYELINER  >>> Restriction: WHILE THEYRE ON THEIR PHONE
+AMELIA  >>> Target: AOIFE WALSH  >>> Weapon: UCDCC BEATER  >>> Restriction: WHILE TALKING TO CIAN
 
-EMMA  >>> Target: SIMON  >>> Weapon: DEODORANT  >>> Restriction: WHILE THEYRE WALKING INTO TOWN
+AOIFE WALSH  >>> Target: HOLLIS  >>> Weapon: BELT  >>> Restriction: WHILE THEYRE ON THEIR PHONE
 
-SIMON  >>> Target: STEPHEN  >>> Weapon: ICE-CUBE TRAY  >>> Restriction: BETWEEN 3-10AM
+HOLLIS  >>> Target: KILLIAN  >>> Weapon: SHAMPOO  >>> Restriction: OUTSIDE BATHROOM
 
-STEPHEN  >>> Target: FEDERICO  >>> Weapon: BOTTLE CAP  >>> Restriction: TALKING TO A FRESHER
+KILLIAN  >>> Target: REIDIN  >>> Weapon: FORK  >>> Restriction: DURING DINNER
 
-FEDERICO  >>> Target: MEABH  >>> Weapon: SAUSAGE  >>> Restriction: DURING LUNCH
+REIDIN  >>> Target: JONATHAN  >>> Weapon: BOOTIE  >>> Restriction: IN A KAYAK
 
-MEABH  >>> Target: HOLLIS  >>> Weapon: SPOON   >>> Restriction: NEXT TO AN AMERICAN
+JONATHAN  >>> Target: MATTHEW  >>> Weapon: VODKA  >>> Restriction: SOMEONE-ELSES BED
 
-HOLLIS  >>> Target: CIAN  >>> Weapon: VODKA  >>> Restriction: WHILE THEYRE DANCING
+MATTHEW  >>> Target: JESSIE  >>> Weapon: ICE-CUBE TRAY  >>> Restriction: IN THE RAIN
 
-CIAN  >>> Target: BEN  >>> Weapon: REMOTE  >>> Restriction: NEXT TO FRIDGE
+JESSIE  >>> Target: DAN  >>> Weapon: PADDLE  >>> Restriction: NEXT TO AN AMERICAN
 
-BEN  >>> Target: SHANLEY  >>> Weapon: CAN  >>> Restriction: AFTER MIDNIGHT
+DAN  >>> Target: BLATHNAID  >>> Weapon: PILLOW  >>> Restriction: WHILE THEYRE DRINKING
 
-SHANLEY  >>> Target: BLATHNAID  >>> Weapon: FORK  >>> Restriction: ON SOMEONE ELSE'S LAP
+BLATHNAID  >>> Target: DAVID  >>> Weapon: CAN  >>> Restriction: WHILE THEYRE WALKING INTO TOWN
 
-BLATHNAID  >>> Target: AMELIA  >>> Weapon: UCDCC MEMBERSHIP CARD  >>> Restriction: BEHIND JONATHON
+DAVID  >>> Target: CIAN  >>> Weapon: REMOTE  >>> Restriction: SITTING ON A COUCH
 
-AMELIA  >>> Target: JESSIE  >>> Weapon: BALLED-UP SOCK  >>> Restriction: IN TOWN
+CIAN  >>> Target: MARIOSA  >>> Weapon: SPOON   >>> Restriction: AFTER MIDNIGHT
 
-JESSIE  >>> Target: KILLIAN  >>> Weapon: COUCH CUSHION  >>> Restriction: WHILE THEYRE DRINKING
+MARIOSA  >>> Target: SIMON  >>> Weapon: IPHONE CHARGER  >>> Restriction: BETWEEN 3-10AM
 
-KILLIAN  >>> Target: AOIFE WALSH  >>> Weapon: PILLOW  >>> Restriction: AT THE BACK OF THE BUS
+SIMON  >>> Target: EMMA  >>> Weapon: EYELINER  >>> Restriction: NEXT TO FRIDGE
 
-AOIFE WALSH  >>> Target: JACK  >>> Weapon: SHOE  >>> Restriction: DURING BREAKFAST
+EMMA  >>> Target: JACK  >>> Weapon: GLASSES  >>> Restriction: AT THE BACK OF THE BUS
 
-JACK  >>> Target: AOIFE QUINN  >>> Weapon: BOWL  >>> Restriction: NEXT TO JACK
+JACK  >>> Target: FEDERICO  >>> Weapon: TOOTHBRUSH  >>> Restriction: OUTSIDE FRONT DOOR
 
-AOIFE QUINN  >>> Target: IZZY  >>> Weapon: TWIG  >>> Restriction: DURING DINNER
+FEDERICO  >>> Target: IZZY  >>> Weapon: HAT  >>> Restriction: IN TOWN
 
-IZZY  >>> Target: OISIN  >>> Weapon: MUG  >>> Restriction: OUTSIDE BACK DOOR
+IZZY  >>> Target: CONOR  >>> Weapon: HAIRBRUSH  >>> Restriction: DURING LUNCH
 
-OISIN  >>> Target: DAN  >>> Weapon: PADDLE  >>> Restriction: OUTSIDE BATHROOM
+CONOR  >>> Target: MEABH  >>> Weapon: SCRUNCHIE  >>> Restriction: TALKING TO A FRESHER
 
-DAN  >>> Target: MARIOSA  >>> Weapon: BOOTIE  >>> Restriction: SOMEONE-ELSES BED
+MEABH  >>> Target: AOIFE QUINN  >>> Weapon: LAMP  >>> Restriction: IN THEIR BED
 
-MARIOSA  >>> Target: MATTHEW  >>> Weapon: HAT  >>> Restriction: IN THEIR BED
+AOIFE QUINN  >>> Target: STEPHEN  >>> Weapon: BALLED-UP SOCK  >>> Restriction: BEHIND JONATHON
 
