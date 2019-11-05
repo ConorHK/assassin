@@ -1,48 +1,48 @@
-AOIFE QUINN  >>> Target: AOIFE QUINN  >>> Weapon: MUG  >>> Restriction: AT THE BACK OF THE BUS
+MATTHEW  >>> Target: CONOR  >>> Weapon: IPHONE CHARGER  >>> Restriction: IN A KAYAK
 
-EMMA  >>> Target: MARIOSA  >>> Weapon: LAMP  >>> Restriction: IN THE RAIN
+CONOR  >>> Target: DAVID  >>> Weapon: LAMP  >>> Restriction: WHILE TALKING TO CIAN
 
-AOIFE QUINN  >>> Target: KILLIAN  >>> Weapon: MUG  >>> Restriction: AT THE BACK OF THE BUS
+DAVID  >>> Target: REIDIN  >>> Weapon: SHAMPOO  >>> Restriction: IN THE RAIN
 
-KILLIAN  >>> Target: AMELIA  >>> Weapon: BALLED-UP SOCK  >>> Restriction: IN NIGHTCLUB
+REIDIN  >>> Target: EMMA  >>> Weapon: EYELINER  >>> Restriction: WHILE THEYRE ON THEIR PHONE
 
-AMELIA  >>> Target: JONATHAN  >>> Weapon: GLASSES  >>> Restriction: SITTING ON A COUCH
+EMMA  >>> Target: SIMON  >>> Weapon: DEODORANT  >>> Restriction: WHILE THEYRE WALKING INTO TOWN
 
-JONATHAN  >>> Target: CIAN  >>> Weapon: SHOE  >>> Restriction: WHILE TALKING TO CIAN
+SIMON  >>> Target: STEPHEN  >>> Weapon: ICE-CUBE TRAY  >>> Restriction: BETWEEN 3-10AM
 
-CIAN  >>> Target: AOIFE WALSH  >>> Weapon: UCDCC BEATER  >>> Restriction: BEHIND JONATHON
+STEPHEN  >>> Target: FEDERICO  >>> Weapon: BOTTLE CAP  >>> Restriction: TALKING TO A FRESHER
 
-AOIFE WALSH  >>> Target: MEABH  >>> Weapon: BLUETOOTH SPEAKER  >>> Restriction: OUTSIDE FRONT DOOR
+FEDERICO  >>> Target: MEABH  >>> Weapon: SAUSAGE  >>> Restriction: DURING LUNCH
 
-MEABH  >>> Target: STEPHEN  >>> Weapon: SCRUNCHIE  >>> Restriction: DURING BREAKFAST
+MEABH  >>> Target: HOLLIS  >>> Weapon: SPOON   >>> Restriction: NEXT TO AN AMERICAN
 
-STEPHEN  >>> Target: JESSIE  >>> Weapon: VODKA  >>> Restriction: BETWEEN 3-10AM
+HOLLIS  >>> Target: CIAN  >>> Weapon: VODKA  >>> Restriction: WHILE THEYRE DANCING
 
-JESSIE  >>> Target: DAN  >>> Weapon: IPHONE CHARGER  >>> Restriction: SOMEONE-ELSES BED
+CIAN  >>> Target: BEN  >>> Weapon: REMOTE  >>> Restriction: NEXT TO FRIDGE
 
-DAN  >>> Target: BEN  >>> Weapon: TOOTHBRUSH  >>> Restriction: WHILE THEYRE ON THEIR PHONE
+BEN  >>> Target: SHANLEY  >>> Weapon: CAN  >>> Restriction: AFTER MIDNIGHT
 
-BEN  >>> Target: CONOR  >>> Weapon: HAIRBRUSH  >>> Restriction: ON SOMEONE ELSE'S LAP
+SHANLEY  >>> Target: BLATHNAID  >>> Weapon: FORK  >>> Restriction: ON SOMEONE ELSE'S LAP
 
-CONOR  >>> Target: SHANLEY  >>> Weapon: CAN  >>> Restriction: OUTSIDE BATHROOM
+BLATHNAID  >>> Target: AMELIA  >>> Weapon: UCDCC MEMBERSHIP CARD  >>> Restriction: BEHIND JONATHON
 
-SHANLEY  >>> Target: JACK  >>> Weapon: EYELINER  >>> Restriction: NEXT TO FRIDGE
+AMELIA  >>> Target: JESSIE  >>> Weapon: BALLED-UP SOCK  >>> Restriction: IN TOWN
 
-JACK  >>> Target: MATTHEW  >>> Weapon: PADDLE  >>> Restriction: NEXT TO JACK
+JESSIE  >>> Target: KILLIAN  >>> Weapon: COUCH CUSHION  >>> Restriction: WHILE THEYRE DRINKING
 
-MATTHEW  >>> Target: HOLLIS  >>> Weapon: SHAMPOO  >>> Restriction: OUTSIDE BACK DOOR
+KILLIAN  >>> Target: AOIFE WALSH  >>> Weapon: PILLOW  >>> Restriction: AT THE BACK OF THE BUS
 
-HOLLIS  >>> Target: BLATHNAID  >>> Weapon: ICE-CUBE TRAY  >>> Restriction: WHILE THEYRE DRINKING
+AOIFE WALSH  >>> Target: JACK  >>> Weapon: SHOE  >>> Restriction: DURING BREAKFAST
 
-BLATHNAID  >>> Target: FEDERICO  >>> Weapon: SPOON   >>> Restriction: DURING LUNCH
+JACK  >>> Target: AOIFE QUINN  >>> Weapon: BOWL  >>> Restriction: NEXT TO JACK
 
-FEDERICO  >>> Target: REIDIN  >>> Weapon: ANDROID PHONE  >>> Restriction: AFTER MIDNIGHT
+AOIFE QUINN  >>> Target: IZZY  >>> Weapon: TWIG  >>> Restriction: DURING DINNER
 
-REIDIN  >>> Target: IZZY  >>> Weapon: TWIG  >>> Restriction: ON THE BEACH
+IZZY  >>> Target: OISIN  >>> Weapon: MUG  >>> Restriction: OUTSIDE BACK DOOR
 
-IZZY  >>> Target: SIMON  >>> Weapon: REMOTE  >>> Restriction: NEXT TO AN AMERICAN
+OISIN  >>> Target: DAN  >>> Weapon: PADDLE  >>> Restriction: OUTSIDE BATHROOM
 
-SIMON  >>> Target: DAVID  >>> Weapon: HAT  >>> Restriction: DURING DINNER
+DAN  >>> Target: MARIOSA  >>> Weapon: BOOTIE  >>> Restriction: SOMEONE-ELSES BED
 
-DAVID  >>> Target: OISIN  >>> Weapon: DEODORANT  >>> Restriction: IN THEIR BED
+MARIOSA  >>> Target: MATTHEW  >>> Weapon: HAT  >>> Restriction: IN THEIR BED
 

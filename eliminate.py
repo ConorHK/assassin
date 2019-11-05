@@ -32,29 +32,32 @@ def loadRestrictions():
 
 def loadCurrentPlayers(count, list):
     players = []
-
-    for i in range(count):
-            players.append(list.return_item(i))
-
+    with open("TempGameFiles/playershuffle.txt") as file:
+        players = file.read().splitlines()
     return players
 
 def loadCurrentWeapons(count, list):
     weapons = []
+    with open("TempGameFiles/weaponshuffle.txt") as file:
+        weapons = file.read().splitlines()
 
-    for i in range(count):
-            weapons.append(list.return_item(i))
 
     return weapons
 
 def loadCurrentRestrictions(count, list):
     restrictions = []
 
-    for i in range(count):
-            restrictions.append(list.return_item(i))
+    with open("TempGameFiles/restrictionshuffle.txt") as file:
+        restrictions = file.read().splitlines()
 
     return restrictions
 
+def loadCurrentTargets(count, list):
+    targets = []
+    with open("TempGameFiles/targetlist.txt") as file:
+        targets = file.read().splitlines()
 
+    return targets
 # Linked list implementation:
 # Followed guide written by Usman Malik @stackabuse.com
 
@@ -70,14 +73,18 @@ class LinkedList:
         self.start_node = None
 
     #Travels through list and prints elements
-    def traverse_list(self):
+    def traverse_list(self, path):
         if self.start_node is None:
             print("List has no element")
             return
         else:
             n = self.start_node
+            open("TempGameFiles/%s" % path, "w").close() 
+
             while n is not None:
-                print(n.item, " ")
+                #print(n.item, " ")
+                with open("TempGameFiles/%s" % path, "a") as file:
+                    file.write(n.item + "\n")
                 n = n.ref
 
     #Insert functions
@@ -224,7 +231,7 @@ class LinkedList:
         #Delete first node:
         if self.start_node.item == x:
             self.start_node = self.start_node.ref
-            return
+            return 1
 
         n = self.start_node
         i = 2; #to account for 1 offset
@@ -235,7 +242,7 @@ class LinkedList:
             i = i + 1
 
         if n.ref is None:
-            print("Item not found in list")
+            print("Item not found in list test")
         else:
             n.ref = n.ref.ref
             return i
@@ -276,34 +283,31 @@ def main():
     restriction_list = LinkedList()
     for item in restrictions:
         restriction_list.insert_at_end(item)
-    
+    target_list = LinkedList()
+    for item in targets:
+        target_list.insert_at_end(item)
+
     flag = player_list.search_item(str(sys.argv[1]))
     if(flag):
-        player_list.traverse_list()
-        print("\n")
-        weapon_list.traverse_list()
-        print("\n")
-        restriction_list.traverse_list()
-        print("\n")
         index = player_list.delete_element_by_value(str(sys.argv[1]))
+        target_list.delete_element_by_value(str(sys.argv[1]))
         weapon_list.delete_element_by_index(index)
         restriction_list.delete_element_by_index(index)
-        player_list.traverse_list()
-        print("\n")
-        weapon_list.traverse_list()
-        print("\n")
-        restriction_list.traverse_list()
-        print("\n")
-        
+        player_list.traverse_list("playershuffle.txt")
+        target_list.traverse_list("targetlist.txt")
+        weapon_list.traverse_list("weaponshuffle.txt")
+        restriction_list.traverse_list("restrictionshuffle.txt")
+
         players = loadCurrentPlayers(player_list.get_count(), player_list)
+        targets = loadCurrentTargets(target_list.get_count(), target_list)
         weapons = loadCurrentWeapons(weapon_list.get_count(), weapon_list)
         restrictions = loadCurrentRestrictions(restriction_list.get_count(), restriction_list)
 
-        for i in range(player_list.get_count()):
+        for i in range(len(players)):
             lines.append(players[i] + "  >>> Target: " + targets[i] +  "  >>> Weapon: " + weapons[i]  + "  >>> Restriction: " + restrictions[i] + "\n\n") 
         
         with open("current.txt", "w") as file:
-            line = sorted(lines, key=str.lower)
+            #line = sorted(lines, key=str.lower)
             for line in lines:
                 file.write(line)
 main()
