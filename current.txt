@@ -1,0 +1,48 @@
+AOIFE QUINN  >>> Target: AOIFE QUINN  >>> Weapon: MUG  >>> Restriction: AT THE BACK OF THE BUS
+
+EMMA  >>> Target: MARIOSA  >>> Weapon: LAMP  >>> Restriction: IN THE RAIN
+
+AOIFE QUINN  >>> Target: KILLIAN  >>> Weapon: MUG  >>> Restriction: AT THE BACK OF THE BUS
+
+KILLIAN  >>> Target: AMELIA  >>> Weapon: BALLED-UP SOCK  >>> Restriction: IN NIGHTCLUB
+
+AMELIA  >>> Target: JONATHAN  >>> Weapon: GLASSES  >>> Restriction: SITTING ON A COUCH
+
+JONATHAN  >>> Target: CIAN  >>> Weapon: SHOE  >>> Restriction: WHILE TALKING TO CIAN
+
+CIAN  >>> Target: AOIFE WALSH  >>> Weapon: UCDCC BEATER  >>> Restriction: BEHIND JONATHON
+
+AOIFE WALSH  >>> Target: MEABH  >>> Weapon: BLUETOOTH SPEAKER  >>> Restriction: OUTSIDE FRONT DOOR
+
+MEABH  >>> Target: STEPHEN  >>> Weapon: SCRUNCHIE  >>> Restriction: DURING BREAKFAST
+
+STEPHEN  >>> Target: JESSIE  >>> Weapon: VODKA  >>> Restriction: BETWEEN 3-10AM
+
+JESSIE  >>> Target: DAN  >>> Weapon: IPHONE CHARGER  >>> Restriction: SOMEONE-ELSES BED
+
+DAN  >>> Target: BEN  >>> Weapon: TOOTHBRUSH  >>> Restriction: WHILE THEYRE ON THEIR PHONE
+
+BEN  >>> Target: CONOR  >>> Weapon: HAIRBRUSH  >>> Restriction: ON SOMEONE ELSE'S LAP
+
+CONOR  >>> Target: SHANLEY  >>> Weapon: CAN  >>> Restriction: OUTSIDE BATHROOM
+
+SHANLEY  >>> Target: JACK  >>> Weapon: EYELINER  >>> Restriction: NEXT TO FRIDGE
+
+JACK  >>> Target: MATTHEW  >>> Weapon: PADDLE  >>> Restriction: NEXT TO JACK
+
+MATTHEW  >>> Target: HOLLIS  >>> Weapon: SHAMPOO  >>> Restriction: OUTSIDE BACK DOOR
+
+HOLLIS  >>> Target: BLATHNAID  >>> Weapon: ICE-CUBE TRAY  >>> Restriction: WHILE THEYRE DRINKING
+
+BLATHNAID  >>> Target: FEDERICO  >>> Weapon: SPOON   >>> Restriction: DURING LUNCH
+
+FEDERICO  >>> Target: REIDIN  >>> Weapon: ANDROID PHONE  >>> Restriction: AFTER MIDNIGHT
+
+REIDIN  >>> Target: IZZY  >>> Weapon: TWIG  >>> Restriction: ON THE BEACH
+
+IZZY  >>> Target: SIMON  >>> Weapon: REMOTE  >>> Restriction: NEXT TO AN AMERICAN
+
+SIMON  >>> Target: DAVID  >>> Weapon: HAT  >>> Restriction: DURING DINNER
+
+DAVID  >>> Target: OISIN  >>> Weapon: DEODORANT  >>> Restriction: IN THEIR BED
+
