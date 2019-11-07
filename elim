@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python3 eliminate.py ${1^^}
+echo "Player eliminated."
